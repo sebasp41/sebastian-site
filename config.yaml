@@ -1,0 +1,33 @@
+baseURL: https://sebastianpycior.com
+title: a data toilet
+theme: etch
+languageCode: en-US
+enableInlineShortcodes: yes
+pygmentsCodeFences: yes
+pygmentsUseClasses: yes
+params:
+  copyright: Copyright © 2021 Sebastian Pycior
+  dark: auto
+  description: Portfolio, or data toilet
+  highlight: yes
+menu:
+  main:
+    - identifier: posts
+      name: posts
+      title: posts
+      url: /
+      weight: 10
+    - identifier: about
+      name: about
+      title: about
+      url: /about/
+      weight: 20
+permalinks:
+  posts: /:title/
+markup:
+  goldmark:
+    renderer:
+      unsafe: yes
+  tableOfContents:
+    ordered: yes
+ignoreErrors: "error-missing-instagram-accesstoken"
