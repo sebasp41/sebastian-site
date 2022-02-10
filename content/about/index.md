@@ -2,6 +2,8 @@
 title: about
 ---
 
-based in Seattle currently working in the crm space as a systems specialist. 
+based in Seattle, working as a crm systems specialist 
 
-i like working through issues by means of data. typical interests include basketball, cycling, politics, and the impacts of cars. 
+i like working through issues by means of data
+
+typical interests include basketball, left urbanism
