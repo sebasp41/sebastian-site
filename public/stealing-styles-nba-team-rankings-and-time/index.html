@@ -27,7 +27,7 @@
     <header id="post-header">
         <h1>Stealing Styles, NBA Team Rankings, and Time</h1>
             <div>
-                <time>February 5, 2022</time>
+                <time>February 10, 2022</time>
                 </div>
     </header><p>I like trying to copy things that I find interesting on the internet, just to teach myself about how to use scrape, clean, and visualize data using R. You might already recognize @benbbaldwin tweets about all things NFL notable:</p>
 
@@ -50,12 +50,13 @@
   <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Comparison of team strength ratings going into the weekend.<br><br>Relative to market, PFF is very high on the Chiefs/Packers and very low on the Chargers <a href="https://t.co/JM4otKQ7ZK">pic.twitter.com/JM4otKQ7ZK</a></p>&mdash; Computer Cowboy (@benbbaldwin) <a href="https://twitter.com/benbbaldwin/status/1476940629754195975?ref_src=twsrc%5Etfw">December 31, 2021</a></blockquote>
 
 <p><img src="./FH8lSFvXsAAvJhD.jpeg" alt=""></p>
-<p>Given that I&rsquo;m  a basketball fan myself, I&rsquo;m going to translate the chart to an NBA equivalent. Instead of using Pro Football Focus' statistic in the graph above, I&rsquo;ll use TeamRankings' predictive metric available <a href="https://www.teamrankings.com/nba/ranking/predictive-by-other/">here</a>. The statistic from inpredictable is available <a href="http://stats.inpredictable.com/rankings/nba.php">here</a>.</p>
+<p>Given that I&rsquo;m  a basketball fan myself, I&rsquo;m going to translate the chart to an NBA equivalent. Instead of using Pro Football Focus&rsquo; statistic in the graph above, I&rsquo;ll use TeamRankings&rsquo; predictive metric available <a href="https://www.teamrankings.com/nba/ranking/predictive-by-other/">here</a>. The statistic from inpredictable is available <a href="http://stats.inpredictable.com/rankings/nba.php">here</a>.</p>
 <p><img src="./tripr.jpeg" alt=""></p>
 <p>Pretty good right? The NBA version looks a lot more crowded. It is interesting to see TeamRankings liking the Pacers a little better, while Inpredictable valuing the Boston Celtics very highly, among the likes of the hot upstart Memphis Grizzlies.</p>
 <p>I&rsquo;m not totally interested in posting the code used to scrape the data, because while I think scraping is great I&rsquo;m not trying to open highways for people. This project was a challenge for me to see how close I can get to @benbbaldwin&rsquo;s image without having to rely on a dedicated NBA stats package.</p>
 <p>What about an animated version of the chart? The following leverages the gganimate package to look at how teams have fared in the eyes of the betting markets over the last week.</p>
 <p><img src="./triper.gif" alt=""></p>
+<p>At the time this data was harvested and visualized, the Celtics had an interesting run, while the Suns were clear cut betting favorites. It&rsquo;s also a day before the trade deadline comes through, meaning we should see some increased variability in the coming days.</p>
 </article>
 
         </main><footer id="footer">

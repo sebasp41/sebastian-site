@@ -6,16 +6,30 @@
     <description>Recent content in Tags on Sebastian Pycior</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 05 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jun 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://sebastianpycior.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     
     <item>
+      <title>GSW staunchly defends Tatum in the Finals</title>
+      <link>https://sebastianpycior.com/gsw-staunchly-defends-tatum-in-the-finals/</link>
+      <pubDate>Sat, 18 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebastianpycior.com/gsw-staunchly-defends-tatum-in-the-finals/</guid>
+      <description>&lt;p&gt;What comes first, assuming a star player is cold or the opponent finding a good answer for said start player?&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./bosgsw_df.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s technically not discernable from this first image above. It shows that Jayson Tatum&amp;rsquo;s Shot Quality and Effective Field Goal percentages were good during his playoff run, up until being consistently held up by the Golden State Warriors&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
       <title>Stealing Styles, NBA Team Rankings, and Time</title>
       <link>https://sebastianpycior.com/stealing-styles-nba-team-rankings-and-time/</link>
-      <pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://sebastianpycior.com/stealing-styles-nba-team-rankings-and-time/</guid>
       <description>&lt;p&gt;I like trying to copy things that I find interesting on the internet, just to teach myself about how to use scrape, clean, and visualize data using R. You might already recognize @benbbaldwin tweets about all things NFL notable:&lt;/p&gt;
@@ -39,12 +53,13 @@
   &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Comparison of team strength ratings going into the weekend.&lt;br&gt;&lt;br&gt;Relative to market, PFF is very high on the Chiefs/Packers and very low on the Chargers &lt;a href=&#34;https://t.co/JM4otKQ7ZK&#34;&gt;pic.twitter.com/JM4otKQ7ZK&lt;/a&gt;&lt;/p&gt;&amp;mdash; Computer Cowboy (@benbbaldwin) &lt;a href=&#34;https://twitter.com/benbbaldwin/status/1476940629754195975?ref_src=twsrc%5Etfw&#34;&gt;December 31, 2021&lt;/a&gt;&lt;/blockquote&gt;
 
 &lt;p&gt;&lt;img src=&#34;./FH8lSFvXsAAvJhD.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Given that I&amp;rsquo;m  a basketball fan myself, I&amp;rsquo;m going to translate the chart to an NBA equivalent. Instead of using Pro Football Focus&#39; statistic in the graph above, I&amp;rsquo;ll use TeamRankings&#39; predictive metric available &lt;a href=&#34;https://www.teamrankings.com/nba/ranking/predictive-by-other/&#34;&gt;here&lt;/a&gt;. The statistic from inpredictable is available &lt;a href=&#34;http://stats.inpredictable.com/rankings/nba.php&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Given that I&amp;rsquo;m  a basketball fan myself, I&amp;rsquo;m going to translate the chart to an NBA equivalent. Instead of using Pro Football Focus&amp;rsquo; statistic in the graph above, I&amp;rsquo;ll use TeamRankings&amp;rsquo; predictive metric available &lt;a href=&#34;https://www.teamrankings.com/nba/ranking/predictive-by-other/&#34;&gt;here&lt;/a&gt;. The statistic from inpredictable is available &lt;a href=&#34;http://stats.inpredictable.com/rankings/nba.php&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;./tripr.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Pretty good right? The NBA version looks a lot more crowded. It is interesting to see TeamRankings liking the Pacers a little better, while Inpredictable valuing the Boston Celtics very highly, among the likes of the hot upstart Memphis Grizzlies.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;m not totally interested in posting the code used to scrape the data, because while I think scraping is great I&amp;rsquo;m not trying to open highways for people. This project was a challenge for me to see how close I can get to @benbbaldwin&amp;rsquo;s image without having to rely on a dedicated NBA stats package.&lt;/p&gt;
 &lt;p&gt;What about an animated version of the chart? The following leverages the gganimate package to look at how teams have fared in the eyes of the betting markets over the last week.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;./triper.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;At the time this data was harvested and visualized, the Celtics had an interesting run, while the Suns were clear cut betting favorites. It&amp;rsquo;s also a day before the trade deadline comes through, meaning we should see some increased variability in the coming days.&lt;/p&gt;
 </description>
     </item>
     

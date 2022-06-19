@@ -1,5 +1,6 @@
 baseURL: https://sebastianpycior.com
 title: Sebastian Pycior
+date: "`r Sys.Date()`"
 theme: etch
 languageCode: en-US
 enableInlineShortcodes: yes
